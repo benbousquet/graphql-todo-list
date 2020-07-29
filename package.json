@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "new-version": "lerna version --conventional-commits --yes"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "name": "graphql-todo-list"
+}
